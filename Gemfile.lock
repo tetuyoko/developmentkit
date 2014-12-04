@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    developmentkit (0.0.2)
+    developmentkit (0.0.3)
       bullet (~> 4.14.0)
       capistrano (~> 2.15.5)
       foreman (~> 0.76.0)
