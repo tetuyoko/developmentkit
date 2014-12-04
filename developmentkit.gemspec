@@ -33,15 +33,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rack-mini-profiler', '~> 0.9.2'
   spec.add_dependency 'bullet', '~> 4.14.0'
   spec.add_dependency "spring", '~> 1.2.0'
-  spec.add_dependency "capistrano", '~> 2.15.5'
   spec.add_dependency "foreman", '~> 0.76.0'
-
-#  # test
-#  spec.add_dependency 'database_cleaner', '~> 1.3.0'
-#  spec.add_dependency 'factory_girl_rails', '~> 4.5.0'
-#  spec.add_dependency 'activerecord-mysql-adapter', '~> 0.0.1'
-#
-#  ## production
-#  spec.add_dependency 'settingslogic', '~> 2.0.9'
-#  spec.add_dependency "activerecord-import", '~> 0.6.0'
 end
