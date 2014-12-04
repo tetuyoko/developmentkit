@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Developmentkit::VERSION
   spec.authors       = ["tetuyoko"]
   spec.email         = ["tyokoyama53@gmail.com"]
-  spec.summary       = %q{mugeunp standard gem set}
-  spec.description   = %q{mugeunp standard gem set}
+  spec.summary       = %q{standard gem set for development}
+  spec.description   = %q{standard gem set for development}
   spec.homepage      = "https://github.com/tetuyoko/developmentkit"
   spec.license       = "MIT"
 
