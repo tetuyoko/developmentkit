@@ -24,7 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.4.3"
 
-  ## development
   spec.add_dependency "thin", "~> 1.6.3"
   spec.add_dependency "pry-rails", "~> 0.3.2"
   spec.add_dependency 'pry-rescue', '~> 1.4.1'
