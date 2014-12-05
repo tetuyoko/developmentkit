@@ -11,6 +11,7 @@ class TestDevelopmentkit < MiniTest::Unit::TestCase
     assert !defined?(Rack::MiniProfiler)
     assert !defined?(Bullet)
     assert !defined?(Foreman)
+#    assert !defined?(QuietAssets)
 
     require 'developmentkit'
 
@@ -22,5 +23,6 @@ class TestDevelopmentkit < MiniTest::Unit::TestCase
     assert defined?(Rack::MiniProfiler)
     assert defined?(Bullet)
     assert defined?(Foreman)
+#    assert defined?(QuietAssets)
   end
 end

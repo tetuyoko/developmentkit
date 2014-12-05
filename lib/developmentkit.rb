@@ -11,3 +11,4 @@ require 'pry-stack_explorer'
 require 'rack-mini-profiler'
 require 'bullet'
 require 'foreman'
+#require 'quiet_assets' # error.

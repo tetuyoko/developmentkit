@@ -33,4 +33,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'bullet', '~> 4.14.0'
   spec.add_dependency "spring", '~> 1.2.0'
   spec.add_dependency "foreman", '~> 0.76.0'
+  spec.add_dependency "quiet_assets", '~> 1.0.3'
 end
