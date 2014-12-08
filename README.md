@@ -32,4 +32,3 @@ Now you're good to go.
 * pry-stack_explorer
 * rack-mini-profiler
 * bullet
-* foreman
