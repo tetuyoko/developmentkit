@@ -29,7 +29,7 @@ $ bundle install
 
 Now you're good to go.
 
-## If conflict, use this gem first time, 
+## If conflict, when first time to use this gem, 
 
 ```
 % gem install developmentkit
