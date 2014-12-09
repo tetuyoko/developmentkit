@@ -1,4 +1,5 @@
 require "developmentkit/version"
+require "developmentkit/tool"
 
 module Developmentkit
   require 'developmentkit/railtie' if defined?(Rails)
