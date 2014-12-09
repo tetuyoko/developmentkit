@@ -7,7 +7,7 @@ module Developmentkit
       end
 
       def dependencies_map
-        spec = Gem::Specification.load 'developmentkit.gemspec'
+        puts spec = Gem::Specification.find_by_name('developmentkit')
         spec.runtime_dependencies.map(&:name).join(' ')
       end
     end
