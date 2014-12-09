@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    developmentkit (0.0.7)
+    developmentkit (0.0.8)
       bullet (~> 4.14.0)
       pry-byebug (~> 2.0.0)
       pry-rails (~> 0.3.2)

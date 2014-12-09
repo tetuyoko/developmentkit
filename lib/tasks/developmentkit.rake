@@ -9,8 +9,8 @@ namespace :develpmenkit do
   desc 'bundle update developmentkit dependency'
   namespace :update do
     task :dependency do
-      `bundle update thin pry-rails pry-rescue pry-stack_explorer pry-byebug rack-mini-profiler bullet spring quiet_assets`
+      spec = Gem::Specification.load 'developmentkit.gemspec'
+      `bundle update #{spec.runtime_dependencies.map(&:name).join(' ')}`
     end
   end
-
 end
