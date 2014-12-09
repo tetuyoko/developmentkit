@@ -8,6 +8,11 @@
 ## What
 Standard GemSet for development.
 
+## Determination Criteria
+ * Usefull
+ * Less harmful
+ * Easy Testable
+
 ## Install
 
 In your `Gemfile` add:
@@ -25,7 +30,6 @@ $ bundle install
 Now you're good to go.
 
 ## Includes
-* thin
 * pry                        
 * pry-rails
 * pry-rescue
