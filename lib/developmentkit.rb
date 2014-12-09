@@ -1,6 +1,7 @@
 require "developmentkit/version"
 
 module Developmentkit
+  require 'developmentkit/railtie' if defined?(Rails)
 end
 
 require 'thin'

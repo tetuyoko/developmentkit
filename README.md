@@ -29,6 +29,11 @@ $ bundle install
 
 Now you're good to go.
 
+## If conflict,
+```sh
+$ rake developmentkit:update
+```
+
 ## Includes
 * bullet ~> 4.14.0
 * pry-byebug ~> 2.0.0
