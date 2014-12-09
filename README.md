@@ -30,9 +30,13 @@ $ bundle install
 Now you're good to go.
 
 ## Includes
-* pry                        
+* thin
+
 * pry-rails
 * pry-rescue
+* pry-byebug
 * pry-stack_explorer
 * rack-mini-profiler
 * bullet
+* spring
+* quiet_assets
