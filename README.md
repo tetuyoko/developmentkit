@@ -29,10 +29,31 @@ $ bundle install
 
 Now you're good to go.
 
-## If conflict,
-```sh
-$ rake developmentkit:update
+## If conflict, use this gem first time, 
+
 ```
+% gem install developmentkit
+```
+
+## And do bundle update command only dependency, to use such below
+## get bundle command,
+```
+% irb
+% require 'developmentkit'
+% Developmentkit::Tool.show_bundle_command
+#=> bundle update thin pry-rails pry-rescue pry-stack_explorer pry-byebug rack-mini-profiler bullet spring quiet_assets
+```
+
+## bundle
+```
+bundle update thin pry-rails pry-rescue pry-stack_explorer pry-byebug rack-mini-profiler bullet spring quiet_assets
+```
+
+# once you bundle this gem, only same thing do this rake task
+```
+bundle exec rake develpmenkit:update:dependency
+```
+
 
 ## Includes
 * bullet ~> 4.14.0
