@@ -10,8 +10,6 @@ class TestDevelopmentkit < MiniTest::Unit::TestCase
     assert !defined?(PryByebug)
     assert !defined?(Rack::MiniProfiler)
     assert !defined?(Bullet)
-    # require 'quiet_assets'できないのでコメントアウト
-    #assert !defined?(QuietAssets)
 
     require 'developmentkit'
 
@@ -22,7 +20,5 @@ class TestDevelopmentkit < MiniTest::Unit::TestCase
     assert defined?(PryStackExplorer)
     assert defined?(Rack::MiniProfiler)
     assert defined?(Bullet)
-    # require 'quiet_assets'できないのでコメントアウト
-    #assert defined?(QuietAssets)
   end
 end
