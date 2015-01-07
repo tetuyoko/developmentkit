@@ -29,7 +29,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'pry-rescue', '~> 1.4.1'
   spec.add_dependency 'pry-stack_explorer', '~> 0.4.9.1'
   spec.add_dependency 'pry-byebug', '~> 2.0.0'
-  spec.add_dependency 'rack-mini-profiler', '~> 0.9.2'
   spec.add_dependency 'bullet', '~> 4.14.0'
   spec.add_dependency "spring", '~> 1.2.0'
 end
