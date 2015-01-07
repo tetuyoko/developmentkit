@@ -8,7 +8,6 @@ class TestDevelopmentkit < MiniTest::Unit::TestCase
     assert !defined?(PryRescue)
     assert !defined?(PryStackExplorer)
     assert !defined?(PryByebug)
-    assert !defined?(Rack::MiniProfiler)
     assert !defined?(Bullet)
 
     require 'developmentkit'
@@ -18,7 +17,6 @@ class TestDevelopmentkit < MiniTest::Unit::TestCase
     assert defined?(PryRails)
     assert defined?(PryRescue)
     assert defined?(PryStackExplorer)
-    assert defined?(Rack::MiniProfiler)
     assert defined?(Bullet)
   end
 end
