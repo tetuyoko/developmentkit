@@ -1,6 +1,6 @@
 # coding: utf-8
 desc 'bundle update developmentkit'
-namespace :develpmenkit do
+namespace :developmenkit do
   task :update do
     `bundle update developmentkit`
   end

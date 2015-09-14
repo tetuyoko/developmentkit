@@ -1,6 +1,6 @@
 require 'minitest_helper'
 
-class TestDevelopmentkit < MiniTest::Unit::TestCase
+class TestDevelopmentkit < MiniTest::Test
   def test_gem_dependencies_are_loaded
     assert !defined?(Thin)
     assert !defined?(Pry)
