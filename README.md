@@ -56,11 +56,11 @@ bundle exec rake develpmenkit:update:dependency
 
 
 ## Includes
-* bullet ~> 4.14.0
-* pry-byebug ~> 2.0.0
-* pry-rails ~> 0.3.2
-* pry-rescue ~> 1.4.1
-* pry-stack_explorer ~> 0.4.9.1
-* rack-mini-profiler ~> 0.9.2
-* spring ~> 1.2.0
-* thin ~> 1.6.3
+* bullet
+* pry-byebug
+* pry-rails
+* pry-rescue
+* pry-stack_explorer
+* rack-mini-profiler
+* spring
+* thin

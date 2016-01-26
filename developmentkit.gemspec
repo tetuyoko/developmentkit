@@ -20,15 +20,15 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.1.0'
 
-  spec.add_development_dependency "bundler", "~> 1.10.6"
-  spec.add_development_dependency "rake", "~> 10.4.2"
-  spec.add_development_dependency "minitest", "~> 5.8.0"
+  spec.add_development_dependency "bundler"
+  spec.add_development_dependency "rake"
+  spec.add_development_dependency "minitest"
 
-  spec.add_dependency "thin", "~> 1.6.3"
-  spec.add_dependency 'pry-rails', '~> 0.3.4'
-  spec.add_dependency 'pry-rescue', '~> 1.4.2'
-  spec.add_dependency 'pry-stack_explorer', '~> 0.4.9.2'
-  spec.add_dependency 'pry-byebug', '~> 3.2.0'
-  spec.add_dependency 'bullet', '~> 4.14.7'
-  spec.add_dependency "spring", '~> 1.4.0'
+  spec.add_dependency "thin"
+  spec.add_dependency 'pry-rails'
+  spec.add_dependency 'pry-rescue'
+  spec.add_dependency 'pry-stack_explorer'
+  spec.add_dependency 'pry-byebug'
+  spec.add_dependency 'bullet'
+  spec.add_dependency "spring"
 end
